@@ -1,0 +1,116 @@
+.container-themes{
+	width: 86%;
+	margin: 30px 5%;
+	min-height: 300px; 
+	border: 1px solid #212121;
+	background-color: #151515;
+	padding: 10px 2%
+}
+
+.container-themes a{
+	color: inherit;
+}
+
+.container-theme{
+	background-color: #0F0F0F;
+	min-height: 100px;
+	margin-bottom: 50px;
+}
+
+
+.container-title{
+	width: 95%;
+	padding: 3px 2.5%;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	border-bottom: 3px solid #151515;
+	font-size: 14px;	
+}
+
+.container-title .title, .container-title .info-bar{
+	align-items: center;
+}
+
+.container-title .info-bar{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-bar div{
+	width: 33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-bar p{
+	text-align: center;
+}
+
+
+.container-title .title{
+	display: flex;
+	width: 37%;
+}
+
+.themes{
+	width: 95%;
+	padding: 10px 2.5%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 3px solid #151515;
+	font-size: 12px;
+}
+
+.themes .title{
+	display: flex;	
+	align-items: center;
+	width: 37%;
+}
+
+.themes .info-bar {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.themes .title i{
+	font-size: 32px;
+	margin-right: 7px;
+}
+
+
+.title-panel{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.error-themes{
+	width: 80%;
+	height: 130px;
+	padding:  10px 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button{
+	padding: 5px 10px;
+	width: 150px;
+	background-color: #151515;
+	border: 3px solid #0f0f0f;
+	color: #d6d6d6;
+	font-family: Montserrat;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+button:hover{
+	background-color: #0F0F0F;
+}

@@ -1,0 +1,43 @@
+.container{
+	width: 85%;
+	margin: 30px 5%;
+	height: 100%; 
+	padding: 30px 2.5%;
+	background-color: #151515;
+}
+
+
+.recovery-panel{
+	width: 95%;
+	padding: 10px 2.5%;
+	background-color: #0f0f0f;
+	padding-top: 25px;
+}
+
+p{
+	font-size: 12px;
+}
+
+form{
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+input{
+	margin: 10px 0;
+	padding: 8px 6px;
+	width: 230px;
+	background-color: #0f0f0f;
+	border: 3px solid #151515;
+	color: #d6d6d6;
+	transition: 0.2s;
+}
+
+input[type='submit']{
+	width: 130px;
+}
+
+input[type='submit']:hover{
+	cursor: pointer;
+	background-color: #151515;
+}

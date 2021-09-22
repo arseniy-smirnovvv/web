@@ -1,0 +1,47 @@
+.container{
+	width: 35%;
+	margin: 30px 30%;
+	height: 100%; 
+	border: 1px solid #212121;
+	background-color: #151515;
+	padding: 10px 2.5%;
+	text-align: center;
+}
+
+a{
+	color: inherit;
+	transition: 0.1s;
+}
+
+a:hover{
+	color: #4a614b;
+}
+
+
+.forms{
+	margin: 30px 0;
+}
+
+
+.forms div{
+	margin: 10px 0;
+}
+
+
+input{
+	width: 250px;
+	padding: 5px 10px;
+	background-color: #151515;
+	border: 3px solid #272727;
+	color: #d6d6d6;
+	outline: none;
+	transition: 0.1s;
+}
+
+input[type="submit"]:hover{
+	background-color: #272727;
+}
+
+.restart{
+	font-size: 12px;
+}

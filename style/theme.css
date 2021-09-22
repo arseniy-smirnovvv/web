@@ -1,0 +1,175 @@
+.container{
+	width: 90%;
+	margin: 30px 5%;
+	min-height: 300px; 
+	padding: 30px 0;
+	text-align: center;
+}
+
+.theme, .comment, .add-comment{
+	width: 95%;
+	display: flex;
+	background-color: #151515;
+	margin-bottom: 30px;
+	padding: 30px 2.5%;
+}
+
+.add-comment{
+	display: block;
+}
+
+.comment .info-bar{
+	width: 22%;
+	padding-right: 2%;
+}
+.comment .info-text{width: 75%;}
+
+.theme .info-bar{
+	width: 22%; 
+	padding-right: 2%
+}
+
+.theme .info-text{width: 75%;}
+
+
+.info-bar{
+	border-right: 3px solid #272727;
+}
+
+.info-bar .photo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-bar .photo img{
+	max-width: 220px;
+	max-height: 220px;
+	width: 100%;
+	height: 110%;
+}
+
+.info-bar .text{
+	max-width: 230px;
+}
+
+.info-bar .text p{
+	font-size: 12px; 
+	margin: 10px 0;
+}
+
+.info-bar .text p:first-child{
+	font-size: 16px;
+}
+
+
+.info-text{
+	padding: 10px 2.5%;
+	text-align: left;
+}
+
+.info-text .text{
+	line-height: 19px;
+	text-align: justify;
+	text-indent: 1.5em;
+	font-size: 14px;
+	min-height: 270px;
+	margin-bottom: 10px;
+	border-bottom: 3px solid #272727;
+}
+
+.info-text .signature{
+	min-height: 30px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.info-text h3{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+.comment .info-text .text{
+	min-height: 200px;
+}
+
+.add-comment h3{
+	text-align: left;
+	margin: 10px;
+}
+
+.add-comment textarea{
+	width: 98%;
+	margin: 10px 0;
+	height: 150px;
+	background-color: #272727;
+	border: 1px solid #151515;
+	color: #fff;
+	font-family: Montserrat;
+	resize: none;
+	padding: 10px 1%;
+}
+
+
+.add-comment input{
+	width: 100px;
+	padding: 3px 15px;
+	background-color: #151515;
+	border: 3px solid #272727;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+.add-comment input:hover{
+	background-color: #272727;
+	color: #d6d6d6;
+}
+
+.add-comment .error{
+	font-size: 12px;
+	color: #a73e2b;
+}
+
+.error-block{
+	width: 95%;
+	padding: 0 2.5%;
+	height: 50px;
+	background-color: #151515;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.date{
+	width: 100%;
+	text-align: right;
+	font-size: 12px;
+}
+
+.control{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	height: 30px;
+}
+
+.control button{
+	background-color: #151515;
+	border: 1px solid #272727;
+	color: #a73e2b;
+	transition: 0.2s;
+	cursor: pointer;
+	height: 30px;
+}
+
+.control button:hover{
+	background-color: #0f0f0f;
+}
+
+.moder{
+	color: tomato;
+}
